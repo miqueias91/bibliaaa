@@ -123,7 +123,7 @@ var app = {
   },
   oneSignal: function() {
     window.plugins.OneSignal
-    .startInit("3fd84006-b794-4c7e-9046-cebafcb36f9b")   
+    .startInit("90e579e7-9e2e-43fa-8671-7f5603e5c4ee")   
     .handleNotificationOpened(function(jsonData) {
       var mensagem = JSON.parse(JSON.stringify(jsonData['notification']['payload']['additionalData']['mensagem']));
       var titulo = JSON.parse(JSON.stringify(jsonData['notification']['payload']['additionalData']['titulo']));
@@ -988,14 +988,13 @@ var app = {
   },
   firebase: function(){
     var firebaseConfig = {
-      apiKey: "AIzaSyA1Wk3Grve6z5QjPx_gcOwcaAjZU3zjo1U",
-      authDomain: "a-biblia-sagrada.firebaseapp.com",
-      databaseURL: "https://a-biblia-sagrada.firebaseio.com",
-      projectId: "a-biblia-sagrada",
-      storageBucket: "a-biblia-sagrada.appspot.com",
-      messagingSenderId: "210414208734",
-      appId: "1:210414208734:web:7bc4a967a161d30454e44f",
-      measurementId: "G-QTMZ8HFDJF"
+      apiKey: "AIzaSyCDeA2F9ZuI6GjzVYkxmm1A27GO694-uj4",
+      authDomain: "biblia-sagrada-almeida-22c9b.firebaseapp.com",
+      projectId: "biblia-sagrada-almeida-22c9b",
+      storageBucket: "biblia-sagrada-almeida-22c9b.appspot.com",
+      messagingSenderId: "355257641419",
+      appId: "1:355257641419:web:bd6764707832751cc0ee4e",
+      measurementId: "G-JVRKV21D97"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
