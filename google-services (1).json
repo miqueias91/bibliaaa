@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "355257641419",
+    "firebase_url": "https://biblia-sagrada-almeida-22c9b-default-rtdb.firebaseio.com",
+    "project_id": "biblia-sagrada-almeida-22c9b",
+    "storage_bucket": "biblia-sagrada-almeida-22c9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355257641419:android:19c381686ba15bc5c0ee4e",
+        "android_client_info": {
+          "package_name": "br.com.innovatesoft.bibliaaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355257641419-3rlot8it3fdo7rao44esgt5b2p09a8s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJhHFnxbz0n3yzatK0qx3WFrO9QHt-wUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355257641419-3rlot8it3fdo7rao44esgt5b2p09a8s2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
