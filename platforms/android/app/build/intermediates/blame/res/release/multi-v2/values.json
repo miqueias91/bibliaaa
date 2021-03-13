@@ -1,23 +1,23 @@
 {
     "logs": [
         {
-            "outputFile": "/var/www/app/bibliaaa/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "outputFile": "/var/www/app/android/bibliaaa/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/var/www/app/bibliaaa/platforms/android/app/build/generated/res/google-services/release/values/values.xml",
+                    "source": "/var/www/app/android/bibliaaa/platforms/android/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,335,417,521,630,750",
-                        "endColumns": "143,135,81,103,108,119,111",
-                        "endOffsets": "194,330,412,516,625,745,857"
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "174,55,115",
+                        "endColumns": "63,59,58",
+                        "endOffsets": "233,110,169"
                     },
                     "to": {
-                        "startLines": "269,271,272,273,274,275,276",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "19230,19456,19592,19674,19778,19887,20007",
-                        "endColumns": "143,135,81,103,108,119,111",
-                        "endOffsets": "19369,19587,19669,19773,19882,20002,20114"
+                        "startLines": "250,251,277",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "16889,16953,20119",
+                        "endColumns": "63,59,58",
+                        "endOffsets": "16948,17008,20173"
                     }
                 },
                 {
@@ -110,23 +110,6 @@
                     }
                 },
                 {
-                    "source": "/var/www/app/bibliaaa/platforms/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "174,55,115",
-                        "endColumns": "63,59,58",
-                        "endOffsets": "233,110,169"
-                    },
-                    "to": {
-                        "startLines": "250,251,277",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "16889,16953,20119",
-                        "endColumns": "63,59,58",
-                        "endOffsets": "16948,17008,20173"
-                    }
-                },
-                {
                     "source": "/home/miqueias/.gradle/caches/transforms-2/files-2.1/0731dd745a141497bdda57f340a7778f/play-services-ads-11.6.2/res/values/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
@@ -141,6 +124,23 @@
                         "startOffsets": "20178,20220,20297,20335,20374,20427,20495",
                         "endColumns": "41,76,37,38,52,67,38",
                         "endOffsets": "20215,20292,20330,20369,20422,20490,20529"
+                    }
+                },
+                {
+                    "source": "/var/www/app/android/bibliaaa/platforms/android/app/build/generated/res/google-services/release/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,335,417,521,630,750",
+                        "endColumns": "143,135,81,103,108,119,111",
+                        "endOffsets": "194,330,412,516,625,745,857"
+                    },
+                    "to": {
+                        "startLines": "269,271,272,273,274,275,276",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "19230,19456,19592,19674,19778,19887,20007",
+                        "endColumns": "143,135,81,103,108,119,111",
+                        "endOffsets": "19369,19587,19669,19773,19882,20002,20114"
                     }
                 },
                 {
