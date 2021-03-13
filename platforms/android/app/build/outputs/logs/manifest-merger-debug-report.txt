@@ -296,9 +296,8 @@ ADDED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidM
 	android:name
 		ADDED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:41:25-77
 uses-sdk
-ADDED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:45:5-74
-INJECTED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:45:5-74
-INJECTED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:45:5-74
+ADDED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:45:5-47
+INJECTED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:45:5-47
 MERGED from [com.onesignal:OneSignal:3.10.5] /home/miqueias/.gradle/caches/transforms-2/files-2.1/e997123954b34e6750e8287a3a7bbc65/OneSignal-3.10.5/AndroidManifest.xml:5:5-44
 MERGED from [com.onesignal:OneSignal:3.10.5] /home/miqueias/.gradle/caches/transforms-2/files-2.1/e997123954b34e6750e8287a3a7bbc65/OneSignal-3.10.5/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:11.6.2] /home/miqueias/.gradle/caches/transforms-2/files-2.1/755fd9a98be3c947809615aef178a8dc/play-services-location-11.6.2/AndroidManifest.xml:3:5-43
@@ -387,17 +386,14 @@ MERGED from [android.arch.core:runtime:1.1.0] /home/miqueias/.gradle/caches/tran
 MERGED from [android.arch.core:runtime:1.1.0] /home/miqueias/.gradle/caches/transforms-2/files-2.1/0a2bdce0da8cfd5c768a5af1598d6c65/runtime-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] /home/miqueias/.gradle/caches/transforms-2/files-2.1/e4e6b57f002cfe080fc04629f5b21250/firebase-analytics-impl-license-11.6.2/AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.2] /home/miqueias/.gradle/caches/transforms-2/files-2.1/e4e6b57f002cfe080fc04629f5b21250/firebase-analytics-impl-license-11.6.2/AndroidManifest.xml:4:5-43
-INJECTED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:45:5-74
-INJECTED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:45:5-74
+INJECTED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:45:5-47
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:11.6.2] /home/miqueias/.gradle/caches/transforms-2/files-2.1/0731dd745a141497bdda57f340a7778f/play-services-ads-11.6.2/AndroidManifest.xml:17:42-92
 	android:targetSdkVersion
-		ADDED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:45:42-71
-		INJECTED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml
-		INJECTED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:45:15-44
 	android:minSdkVersion
-		ADDED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:45:15-41
 		INJECTED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:45:5-47
 		INJECTED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /var/www/app/android/bibliaaa/platforms/android/app/src/main/AndroidManifest.xml:46:5-79
