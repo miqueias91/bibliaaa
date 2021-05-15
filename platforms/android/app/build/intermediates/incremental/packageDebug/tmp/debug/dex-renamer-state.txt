@@ -1,4 +1,4 @@
-#Wed May 12 21:04:35 BRT 2021
+#Sat May 15 19:35:52 BRT 2021
 base.2=/var/www/app/android/bibliaaa/platforms/android/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_0.dex
 path.2=classes_0.dex
 base.1=/var/www/app/android/bibliaaa/platforms/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
