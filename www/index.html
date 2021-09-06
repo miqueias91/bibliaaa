@@ -48,7 +48,7 @@
       </div>
     </ons-toolbar>
     <ons-tabbar swipeable id="appTabbar" position="bottom">
-        <ons-tab label="Versão 1.0.8" page="home.html" active></ons-tab>
+        <ons-tab label="Versão 1.0.9" page="home.html" active></ons-tab>
     </ons-tabbar>
 
     <script>
@@ -185,6 +185,18 @@
         </div>
       </ons-list-item>
 
+      <ons-list-item onclick="fn.loadLink('https://www.cristaonarede.com.br/loja.php')">
+        <div class="left">
+            <i class="fas fa-store"></i>
+        </div>
+        <div class="center">
+          Loja
+        </div>
+        <div class="right">
+          <ons-icon icon="fa-external-link"></ons-icon>
+        </div>
+      </ons-list-item>
+
       <ons-list-item onclick="fn.loadLink('https://www.instagram.com/cristao.narede/')">
         <div class="left">
             <i class="fab fa-instagram"></i>
@@ -224,13 +236,13 @@
         margin: 0 auto;
       }
 
-        .profile-pic > img {
-            width: 80px;
-            height: 80px;
-            display: block;
-            max-width: 100%;
-            margin: 0 auto;
-        }
+      .profile-pic > img {
+        width: 50px;
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+      }
 
       ons-list-item {
         color: #444;
@@ -322,7 +334,7 @@
       ons.getScriptPage().onInit = function () {
         app.registraAcesso('aa/versiculosMarcados.html');
         if (window.localStorage.getItem("versao_pro") === 'NAO') {
-            //admob.interstitial.show();
+            admob.interstitial.show();
           }
         $("#textoVersiculo").html('');
         this.querySelector('#versiculosMarcados_ div.center').textContent = 'Versículos Marcados';
@@ -435,7 +447,7 @@
           };
         ons.getScriptPage().onInit = function () {
           if (window.localStorage.getItem("versao_pro") === 'NAO') {
-            //admob.interstitial.show();
+            admob.interstitial.show();
           }
           app.registraAcesso('aa/ajustes.html');
           modo_noturno = JSON.parse(localStorage.getItem('modo-noturno'));
@@ -628,8 +640,9 @@
       .profile-pic {
         background-color: transparent;
       }
-      .profile-pic > img {
+     .profile-pic > img {
         width: 50px!important;
+        height: auto!important;
         background-color: transparent;
         margin: 0 auto;
         padding: 0!important;
@@ -801,7 +814,7 @@
     <script>
       ons.getScriptPage().onInit = function () {
         if (window.localStorage.getItem("versao_pro") === 'NAO') {
-          //admob.interstitial.show();
+          admob.interstitial.show();
         }
         app.registraAcesso('aa/palavraDia.html');
         $("#textoVersiculo").html('');
@@ -937,7 +950,7 @@
     <script>
         ons.getScriptPage().onInit = function () {
           if (window.localStorage.getItem("versao_pro") === 'NAO') {
-            //admob.interstitial.show();
+            admob.interstitial.show();
           }
           app.registraAcesso('aa/capitulosLidos.html');
           $("#textoCapitulosLidos").html('');
@@ -1295,7 +1308,7 @@
     <script>
         ons.getScriptPage().onInit = function () {
           if (window.localStorage.getItem("versao_pro") === 'NAO') {
-            //admob.interstitial.show();
+            admob.interstitial.show();
           }
           app.registraAcesso('aa/harpa.html');
           fn.showDialog('modal-aguarde');
@@ -1767,7 +1780,7 @@
         <script>
           ons.getScriptPage().onInit = function () {
             if (window.localStorage.getItem("versao_pro") === 'NAO') {
-            //admob.interstitial.show();
+            admob.interstitial.show();
           }
             var dados = this.data.title.split('||'); 
             this.querySelector('#conteudoLivro_ div.center').textContent = dados[1];
@@ -2100,7 +2113,7 @@
         <script>
         ons.getScriptPage().onInit = function () {
           if (window.localStorage.getItem("versao_pro") === 'NAO') {
-            //admob.interstitial.show();
+            admob.interstitial.show();
           }
           var dados = this.data.title.split('||'); 
           app.registraAcesso('aa/conteudoHarpa.html?livro='+dados[0]);
@@ -2113,11 +2126,11 @@
           $( "#favoritar_harpa" ).click(function() {
             var cor_favorito = app.buscaFavoritoHinario('harpa', dados[0]);
             if(cor_favorito == '#f5f5f5'){
-              app.incluirFavoritoHinario('harpa', dados[0], dados[1]);
+              app.incluirFavorioHinario('harpa', dados[0], dados[1]);
               $(this).css('color','yellow');
             }
             else{
-              app.retirarFavoritoHinario('harpa', dados[0]);
+              app.retirarFavorioHinario('harpa', dados[0]);
               $(this).css('color','#f5f5f5');
             }
           });
@@ -2146,7 +2159,7 @@
     <script>
       ons.getScriptPage().onInit = function () {
         if (window.localStorage.getItem("versao_pro") === 'NAO') {
-            //admob.interstitial.show();
+            admob.interstitial.show();
           }
         app.registraAcesso('aa/notificacoes.html');
         this.querySelector('#notificacoes_ div.center').textContent = 'Notificações';
@@ -2443,7 +2456,7 @@
     <script>
       ons.getScriptPage().onInit = function () {
         if (window.localStorage.getItem("versao_pro") === 'NAO') {
-            //admob.interstitial.show();
+            admob.interstitial.show();
           }
         app.registraAcesso('aa/versoes.html');
         this.querySelector('#versoes_ div.center').textContent = 'Versões';
@@ -2806,7 +2819,7 @@
     <script>
         ons.getScriptPage().onInit = function () {
           if (window.localStorage.getItem("versao_pro") === 'NAO') {
-            //admob.interstitial.show();
+            admob.interstitial.show();
           }
           app.registraAcesso('aa/cantor.html');
           fn.showDialog('modal-aguarde');
@@ -2874,7 +2887,7 @@
         <script>
         ons.getScriptPage().onInit = function () {
           if (window.localStorage.getItem("versao_pro") === 'NAO') {
-            //admob.interstitial.show();
+            admob.interstitial.show();
           }
           var dados = this.data.title.split('||'); 
           app.registraAcesso('aa/conteudoCantor.html?livro='+dados[0]);
@@ -2887,11 +2900,11 @@
           $( "#favoritar_cantor" ).click(function() {
             var cor_favorito = app.buscaFavoritoHinario('cantor', dados[0]);
             if(cor_favorito == '#f5f5f5'){
-              app.incluirFavoritoHinario('cantor', dados[0], dados[1]);
+              app.incluirFavorioHinario('cantor', dados[0], dados[1]);
               $(this).css('color','yellow');
             }
             else{
-              app.retirarFavoritoHinario('cantor', dados[0]);
+              app.retirarFavorioHinario('cantor', dados[0]);
               $(this).css('color','#f5f5f5');
             }
           });
@@ -2970,7 +2983,7 @@
     <script>
         ons.getScriptPage().onInit = function () {
           if (window.localStorage.getItem("versao_pro") === 'NAO') {
-            //admob.interstitial.show();
+            admob.interstitial.show();
           }
           app.registraAcesso('aa/listaFavoritosHinario.html');
           fn.showDialog('modal-aguarde');
